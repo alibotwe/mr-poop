@@ -1,0 +1,24 @@
+{
+  "name": "chodu-yadav-multi-session-panel",
+  "version": "2.0.0",
+  "description": "XHODU YAD4V Multi Session WhatsApp Hosting Panel",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "multi-session",
+    "render"
+  ],
+  "author": "XHODU YAD4V",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "pino": "^9.3.2"
+  }
+}
